@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StationBoard name="City Hospital" tiploc="CH" crs="CHA" PlatformData="Yes" Timestamp="23/02/2019 11:41:32">
+<TridentId>44692284</TridentId>
+<Service Headcode="B817" Uid="004409" RetailID="" TigerID="1">
+<ServiceType Type="Through" />
+<ArriveTime time="1146" Arrived="No" timestamp="20190223114600" />
+<DepartTime time="1146" timestamp="20190223114600" sorttimestamp="20190223114600" />
+<Platform Number="1" Changed="No" Parent="1"/>
+<SecondaryServiceStatus></SecondaryServiceStatus>
+<ServiceStatus Status="On time" />
+<ExpectedDepartTime time="On time"/>
+<ExpectedArriveTime time="On time"/>
+<Delay Minutes="0"/>
+<ExpectedDepartStatus time="On time"/>
+<ExpectedArriveStatus time="On time"/>
+<DelayCause></DelayCause>
+<LastReport tiploc="" time="1140" type="T" station1="Lanyon Place" station2=""/>
+<CommentLine></CommentLine>
+<CommentLine2></CommentLine2>
+<ArrivalComment1></ArrivalComment1>
+<ArrivalComment2></ArrivalComment2>
+<PlatformComment1></PlatformComment1>
+<PlatformComment2></PlatformComment2>
+<DepartureComment1></DepartureComment1>
+<DepartureComment2></DepartureComment2>
+<AssociatedPageNotices></AssociatedPageNotices>
+<ChangeAt></ChangeAt>
+<Operator name="Translink" code="NI" brand="" />
+<Origin1 name="Londonderry" tiploc="LY" crs="LYA"/>
+<Destination1 name="Great Victoria St" tiploc="GV" crs="GVA" ttarr="1150" etarr="1150"/>
+<Via />
+<Coaches1 />
+<Incident /><Dest1CallingPoints NumCallingPoints="0">
+</Dest1CallingPoints>
+</Service>
+<Service Headcode="B711" Uid="007720" RetailID="" TigerID="2">
+<ServiceType Type="Through" />
+<ArriveTime time="1147" Arrived="No" timestamp="20190223114700" />
+<DepartTime time="1148" timestamp="20190223114800" sorttimestamp="20190223114800" />
+<Platform Number="2" Changed="No" Parent="2"/>
+<SecondaryServiceStatus></SecondaryServiceStatus>
+<ServiceStatus Status="On time" />
+<ExpectedDepartTime time="On time"/>
+<ExpectedArriveTime time="On time"/>
+<Delay Minutes="0"/>
+<ExpectedDepartStatus time="On time"/>
+<ExpectedArriveStatus time="On time"/>
+<DelayCause></DelayCause>
+<LastReport tiploc="" time="1130" type="A" station1="Great Victoria St" station2=""/>
+<CommentLine></CommentLine>
+<CommentLine2></CommentLine2>
+<ArrivalComment1></ArrivalComment1>
+<ArrivalComment2></ArrivalComment2>
+<PlatformComment1></PlatformComment1>
+<PlatformComment2></PlatformComment2>
+<DepartureComment1></DepartureComment1>
+<DepartureComment2></DepartureComment2>
+<AssociatedPageNotices></AssociatedPageNotices>
+<ChangeAt></ChangeAt>
+<Operator name="Translink" code="NI" brand="" />
+<Origin1 name="Great Victoria St" tiploc="GV" crs="GVA"/>
+<Destination1 name="Whitehead" tiploc="WD" crs="WDA" ttarr="1230" etarr="1230"/>
+<Via />
+<Coaches1 />
+<Incident /><Dest1CallingPoints NumCallingPoints="10">
+<CallingPoint Name="Botanic" tiploc="BT" crs="BTA" ttarr="1149" ttdep="1150" etarr="1149" etdep="1150" type="T"/>
+<CallingPoint Name="Lanyon Place" tiploc="CL" crs="CLA" ttarr="1153" ttdep="1155" etarr="1153" etdep="1155" type="T"/>
+<CallingPoint Name="Yorkgate" tiploc="YG" crs="YGA" ttarr="1158" ttdep="1159" etarr="1158" etdep="1159" type="T"/>
+<CallingPoint Name="Whiteabbey" tiploc="WY" crs="WYA" ttarr="1204" ttdep="1204" etarr="1204" etdep="1204" type="T"/>
+<CallingPoint Name="Jordanstown" tiploc="JN" crs="JNA" ttarr="1208" ttdep="1209" etarr="1208" etdep="1209" type="T"/>
+<CallingPoint Name="Greenisland" tiploc="GD" crs="GDA" ttarr="1211" ttdep="1212" etarr="1211" etdep="1212" type="T"/>
+<CallingPoint Name="Trooperslane" tiploc="TE" crs="TEA" ttarr="1214" ttdep="1215" etarr="1214" etdep="1215" type="T"/>
+<CallingPoint Name="Clipperstown" tiploc="CP" crs="CPA" ttarr="1217" ttdep="1218" etarr="1217" etdep="1218" type="T"/>
+<CallingPoint Name="Carrickfergus" tiploc="CS" crs="CSA" ttarr="1219" ttdep="1220" etarr="1219" etdep="1220" type="T"/>
+<CallingPoint Name="Downshire" tiploc="DP" crs="DPA" ttarr="1222" ttdep="1222" etarr="1222" etdep="1222" type="T"/>
+</Dest1CallingPoints>
+</Service>
+<Service Headcode="B818" Uid="007721" RetailID="" TigerID="3">
+<ServiceType Type="Through" />
+<ArriveTime time="1157" Arrived="No" timestamp="20190223115700" />
+<DepartTime time="1157" timestamp="20190223115700" sorttimestamp="20190223115700" />
+<Platform Number="1" Changed="No" Parent="1"/>
+<SecondaryServiceStatus></SecondaryServiceStatus>
+<ServiceStatus Status="On time" />
+<ExpectedDepartTime time="On time"/>
+<ExpectedArriveTime time="On time"/>
+<Delay Minutes="0"/>
+<ExpectedDepartStatus time="On time"/>
+<ExpectedArriveStatus time="On time"/>
+<DelayCause></DelayCause>
+<LastReport tiploc="" time="1140" type="B" station1="Whiteabbey" station2="Yorkgate"/>
+<CommentLine></CommentLine>
+<CommentLine2></CommentLine2>
+<ArrivalComment1></ArrivalComment1>
+<ArrivalComment2></ArrivalComment2>
+<PlatformComment1></PlatformComment1>
+<PlatformComment2></PlatformComment2>
+<DepartureComment1></DepartureComment1>
+<DepartureComment2></DepartureComment2>
+<AssociatedPageNotices></AssociatedPageNotices>
+<ChangeAt></ChangeAt>
+<Operator name="Translink" code="NI" brand="" />
+<Origin1 name="Whitehead" tiploc="WD" crs="WDA"/>
+<Destination1 name="Great Victoria St" tiploc="GV" crs="GVA" ttarr="1200" etarr="1200"/>
+<Via />
+<Coaches1 />
+<Incident /><Dest1CallingPoints NumCallingPoints="0">
+</Dest1CallingPoints>
+</Service>
+<Service Headcode="B205" Uid="090211" RetailID="" TigerID="4">
+<ServiceType Type="Through" />
+<ArriveTime time="1205" Arrived="No" timestamp="20190223120500" />
+<DepartTime time="1205" timestamp="20190223120500" sorttimestamp="20190223120500" />
+<Platform Number="1" Changed="No" Parent="1"/>
+<SecondaryServiceStatus></SecondaryServiceStatus>
+<ServiceStatus Status="On time" />
+<ExpectedDepartTime time="On time"/>
+<ExpectedArriveTime time="On time"/>
+<Delay Minutes="0"/>
+<ExpectedDepartStatus time="On time"/>
+<ExpectedArriveStatus time="On time"/>
+<DelayCause></DelayCause>
+<LastReport tiploc="" time="" type="" station1="" station2=""/>
+<CommentLine></CommentLine>
+<CommentLine2></CommentLine2>
+<ArrivalComment1></ArrivalComment1>
+<ArrivalComment2></ArrivalComment2>
+<PlatformComment1></PlatformComment1>
+<PlatformComment2></PlatformComment2>
+<DepartureComment1></DepartureComment1>
+<DepartureComment2></DepartureComment2>
+<AssociatedPageNotices></AssociatedPageNotices>
+<ChangeAt></ChangeAt>
+<Operator name="Translink" code="NI" brand="" />
+<Origin1 name="Bangor" tiploc="BR" crs="BRA"/>
+<Destination1 name="Lisburn" tiploc="LB" crs="LBA" ttarr="1233" etarr="1233"/>
+<Via />
+<Coaches1 />
+<Incident /><Dest1CallingPoints NumCallingPoints="8">
+<CallingPoint Name="Great Victoria St" tiploc="GV" crs="GVA" ttarr="1208" ttdep="1211" etarr="1208" etdep="1211" type="T"/>
+<CallingPoint Name="Adelaide" tiploc="AD" crs="ADA" ttarr="1214" ttdep="1215" etarr="1214" etdep="1215" type="T"/>
+<CallingPoint Name="Balmoral" tiploc="BL" crs="BLA" ttarr="1217" ttdep="1217" etarr="1217" etdep="1217" type="T"/>
+<CallingPoint Name="Finaghy" tiploc="FY" crs="FYA" ttarr="1220" ttdep="1220" etarr="1220" etdep="1220" type="T"/>
+<CallingPoint Name="Dunmurry" tiploc="DM" crs="DMA" ttarr="1222" ttdep="1222" etarr="1222" etdep="1222" type="T"/>
+<CallingPoint Name="Derriaghy" tiploc="DH" crs="DHA" ttarr="1224" ttdep="1224" etarr="1224" etdep="1224" type="T"/>
+<CallingPoint Name="Lambeg" tiploc="LG" crs="LGA" ttarr="1226" ttdep="1226" etarr="1226" etdep="1226" type="T"/>
+<CallingPoint Name="Hilden" tiploc="HD" crs="HDA" ttarr="1228" ttdep="1228" etarr="1228" etdep="1228" type="T"/>
+</Dest1CallingPoints>
+</Service>
+<Service Headcode="B608" Uid="090606" RetailID="" TigerID="5">
+<ServiceType Type="Through" />
+<ArriveTime time="1206" Arrived="No" timestamp="20190223120600" />
+<DepartTime time="1207" timestamp="20190223120700" sorttimestamp="20190223120700" />
+<Platform Number="2" Changed="No" Parent="2"/>
+<SecondaryServiceStatus></SecondaryServiceStatus>
+<ServiceStatus Status="On time" />
+<ExpectedDepartTime time="On time"/>
+<ExpectedArriveTime time="On time"/>
+<Delay Minutes="0"/>
+<ExpectedDepartStatus time="On time"/>
+<ExpectedArriveStatus time="On time"/>
+<DelayCause></DelayCause>
+<LastReport tiploc="" time="1141" type="T" station1="Hilden" station2=""/>
+<CommentLine></CommentLine>
+<CommentLine2></CommentLine2>
+<ArrivalComment1></ArrivalComment1>
+<ArrivalComment2></ArrivalComment2>
+<PlatformComment1></PlatformComment1>
+<PlatformComment2></PlatformComment2>
+<DepartureComment1></DepartureComment1>
+<DepartureComment2></DepartureComment2>
+<AssociatedPageNotices></AssociatedPageNotices>
+<ChangeAt></ChangeAt>
+<Operator name="Translink" code="NI" brand="" />
+<Origin1 name="Lisburn" tiploc="LB" crs="LBA"/>
+<Destination1 name="Bangor" tiploc="BR" crs="BRA" ttarr="1245" etarr="1245"/>
+<Via />
+<Coaches1 />
+<Incident /><Dest1CallingPoints NumCallingPoints="11">
+<CallingPoint Name="Botanic" tiploc="BT" crs="BTA" ttarr="1208" ttdep="1209" etarr="1208" etdep="1209" type="T"/>
+<CallingPoint Name="Lanyon Place" tiploc="CL" crs="CLA" ttarr="1212" ttdep="1214" etarr="1212" etdep="1214" type="T"/>
+<CallingPoint Name="Titanic Quarter" tiploc="BE" crs="BEA" ttarr="1217" ttdep="1217" etarr="1217" etdep="1217" type="T"/>
+<CallingPoint Name="Sydenham" tiploc="SY" crs="SYA" ttarr="1220" ttdep="1220" etarr="1220" etdep="1220" type="T"/>
+<CallingPoint Name="Holywood" tiploc="HW" crs="HWA" ttarr="1224" ttdep="1225" etarr="1224" etdep="1225" type="T"/>
+<CallingPoint Name="Marino" tiploc="MO" crs="MOA" ttarr="1226" ttdep="1227" etarr="1226" etdep="1227" type="T"/>
+<CallingPoint Name="Cultra" tiploc="CT" crs="CTA" ttarr="1228" ttdep="1229" etarr="1228" etdep="1229" type="T"/>
+<CallingPoint Name="Seahill" tiploc="SL" crs="SLA" ttarr="1231" ttdep="1232" etarr="1231" etdep="1232" type="T"/>
+<CallingPoint Name="Helen&apos;s Bay" tiploc="HB" crs="HBA" ttarr="1235" ttdep="1235" etarr="1235" etdep="1235" type="T"/>
+<CallingPoint Name="Carnalea" tiploc="CA" crs="CAA" ttarr="1239" ttdep="1239" etarr="1239" etdep="1239" type="T"/>
+<CallingPoint Name="Bangor West" tiploc="BW" crs="BWA" ttarr="1240" ttdep="1241" etarr="1240" etdep="1241" type="T"/>
+</Dest1CallingPoints>
+</Service>
+<Service Headcode="B406" Uid="004410" RetailID="" TigerID="6">
+<ServiceType Type="Through" />
+<ArriveTime time="1212" Arrived="No" timestamp="20190223121200" />
+<DepartTime time="1213" timestamp="20190223121300" sorttimestamp="20190223121300" />
+<Platform Number="2" Changed="No" Parent="2"/>
+<SecondaryServiceStatus></SecondaryServiceStatus>
+<ServiceStatus Status="On time" />
+<ExpectedDepartTime time="On time"/>
+<ExpectedArriveTime time="On time"/>
+<Delay Minutes="0"/>
+<ExpectedDepartStatus time="On time"/>
+<ExpectedArriveStatus time="On time"/>
+<DelayCause></DelayCause>
+<LastReport tiploc="" time="" type="" station1="" station2=""/>
+<CommentLine></CommentLine>
+<CommentLine2></CommentLine2>
+<ArrivalComment1></ArrivalComment1>
+<ArrivalComment2></ArrivalComment2>
+<PlatformComment1></PlatformComment1>
+<PlatformComment2></PlatformComment2>
+<DepartureComment1></DepartureComment1>
+<DepartureComment2></DepartureComment2>
+<AssociatedPageNotices></AssociatedPageNotices>
+<ChangeAt></ChangeAt>
+<Operator name="Translink" code="NI" brand="" />
+<Origin1 name="Great Victoria St" tiploc="GV" crs="GVA"/>
+<Destination1 name="Londonderry" tiploc="LY" crs="LYA" ttarr="1422" etarr="1422"/>
+<Via />
+<Coaches1 />
+<Incident /><Dest1CallingPoints NumCallingPoints="11">
+<CallingPoint Name="Botanic" tiploc="BT" crs="BTA" ttarr="1214" ttdep="1215" etarr="1214" etdep="1215" type="T"/>
+<CallingPoint Name="Lanyon Place" tiploc="CL" crs="CLA" ttarr="1218" ttdep="1220" etarr="1218" etdep="1220" type="T"/>
+<CallingPoint Name="Yorkgate" tiploc="YG" crs="YGA" ttarr="1223" ttdep="1224" etarr="1223" etdep="1224" type="T"/>
+<CallingPoint Name="Mossley West" tiploc="MW" crs="MWA" ttarr="1232" ttdep="1233" etarr="1232" etdep="1233" type="T"/>
+<CallingPoint Name="Antrim" tiploc="AN" crs="ANA" ttarr="1245" ttdep="1247" etarr="1245" etdep="1247" type="T"/>
+<CallingPoint Name="Ballymena" tiploc="BA" crs="BAA" ttarr="1259" ttdep="1303" etarr="1259" etdep="1303" type="T"/>
+<CallingPoint Name="Cullybackey" tiploc="CY" crs="CYA" ttarr="1307" ttdep="1308" etarr="1307" etdep="1308" type="T"/>
+<CallingPoint Name="Ballymoney" tiploc="BY" crs="BYA" ttarr="1326" ttdep="1330" etarr="1326" etdep="1330" type="T"/>
+<CallingPoint Name="Coleraine" tiploc="CE" crs="CEA" ttarr="1340" ttdep="1343" etarr="1340" etdep="1343" type="T"/>
+<CallingPoint Name="Castlerock" tiploc="CK" crs="CKA" ttarr="1350" ttdep="1350" etarr="1350" etdep="1350" type="T"/>
+<CallingPoint Name="Bellarena" tiploc="BN" crs="BNA" ttarr="1358" ttdep="1400" etarr="1358" etdep="1400" type="T"/>
+</Dest1CallingPoints>
+</Service>
+<Service Headcode="B712" Uid="006724" RetailID="" TigerID="7">
+<ServiceType Type="Through" />
+<ArriveTime time="1217" Arrived="No" timestamp="20190223121700" />
+<DepartTime time="1218" timestamp="20190223121800" sorttimestamp="20190223121800" />
+<Platform Number="2" Changed="No" Parent="2"/>
+<SecondaryServiceStatus></SecondaryServiceStatus>
+<ServiceStatus Status="On time" />
+<ExpectedDepartTime time="On time"/>
+<ExpectedArriveTime time="On time"/>
+<Delay Minutes="0"/>
+<ExpectedDepartStatus time="On time"/>
+<ExpectedArriveStatus time="On time"/>
+<DelayCause></DelayCause>
+<LastReport tiploc="" time="" type="" station1="" station2=""/>
+<CommentLine></CommentLine>
+<CommentLine2></CommentLine2>
+<ArrivalComment1></ArrivalComment1>
+<ArrivalComment2></ArrivalComment2>
+<PlatformComment1></PlatformComment1>
+<PlatformComment2></PlatformComment2>
+<DepartureComment1></DepartureComment1>
+<DepartureComment2></DepartureComment2>
+<AssociatedPageNotices></AssociatedPageNotices>
+<ChangeAt></ChangeAt>
+<Operator name="Translink" code="NI" brand="" />
+<Origin1 name="Great Victoria St" tiploc="GV" crs="GVA"/>
+<Destination1 name="Whitehead" tiploc="WD" crs="WDA" ttarr="1300" etarr="1300"/>
+<Via />
+<Coaches1 />
+<Incident /><Dest1CallingPoints NumCallingPoints="10">
+<CallingPoint Name="Botanic" tiploc="BT" crs="BTA" ttarr="1219" ttdep="1220" etarr="1219" etdep="1220" type="T"/>
+<CallingPoint Name="Lanyon Place" tiploc="CL" crs="CLA" ttarr="1223" ttdep="1225" etarr="1223" etdep="1225" type="T"/>
+<CallingPoint Name="Yorkgate" tiploc="YG" crs="YGA" ttarr="1228" ttdep="1229" etarr="1228" etdep="1229" type="T"/>
+<CallingPoint Name="Whiteabbey" tiploc="WY" crs="WYA" ttarr="1234" ttdep="1234" etarr="1234" etdep="1234" type="T"/>
+<CallingPoint Name="Jordanstown" tiploc="JN" crs="JNA" ttarr="1238" ttdep="1239" etarr="1238" etdep="1239" type="T"/>
+<CallingPoint Name="Greenisland" tiploc="GD" crs="GDA" ttarr="1241" ttdep="1242" etarr="1241" etdep="1242" type="T"/>
+<CallingPoint Name="Trooperslane" tiploc="TE" crs="TEA" ttarr="1244" ttdep="1245" etarr="1244" etdep="1245" type="T"/>
+<CallingPoint Name="Clipperstown" tiploc="CP" crs="CPA" ttarr="1247" ttdep="1248" etarr="1247" etdep="1248" type="T"/>
+<CallingPoint Name="Carrickfergus" tiploc="CS" crs="CSA" ttarr="1249" ttdep="1250" etarr="1249" etdep="1250" type="T"/>
+<CallingPoint Name="Downshire" tiploc="DP" crs="DPA" ttarr="1252" ttdep="1252" etarr="1252" etdep="1252" type="T"/>
+</Dest1CallingPoints>
+</Service>
+<Service Headcode="B820" Uid="006723" RetailID="" TigerID="8">
+<ServiceType Type="Through" />
+<ArriveTime time="1227" Arrived="No" timestamp="20190223122700" />
+<DepartTime time="1227" timestamp="20190223122700" sorttimestamp="20190223122700" />
+<Platform Number="1" Changed="No" Parent="1"/>
+<SecondaryServiceStatus></SecondaryServiceStatus>
+<ServiceStatus Status="On time" />
+<ExpectedDepartTime time="On time"/>
+<ExpectedArriveTime time="On time"/>
+<Delay Minutes="0"/>
+<ExpectedDepartStatus time="On time"/>
+<ExpectedArriveStatus time="On time"/>
+<DelayCause></DelayCause>
+<LastReport tiploc="" time="1057" type="A" station1="Whitehead" station2=""/>
+<CommentLine></CommentLine>
+<CommentLine2></CommentLine2>
+<ArrivalComment1></ArrivalComment1>
+<ArrivalComment2></ArrivalComment2>
+<PlatformComment1></PlatformComment1>
+<PlatformComment2></PlatformComment2>
+<DepartureComment1></DepartureComment1>
+<DepartureComment2></DepartureComment2>
+<AssociatedPageNotices></AssociatedPageNotices>
+<ChangeAt></ChangeAt>
+<Operator name="Translink" code="NI" brand="" />
+<Origin1 name="Whitehead" tiploc="WD" crs="WDA"/>
+<Destination1 name="Great Victoria St" tiploc="GV" crs="GVA" ttarr="1230" etarr="1230"/>
+<Via />
+<Coaches1 />
+<Incident /><Dest1CallingPoints NumCallingPoints="0">
+</Dest1CallingPoints>
+</Service>
+<Service Headcode="B206" Uid="090213" RetailID="" TigerID="9">
+<ServiceType Type="Through" />
+<ArriveTime time="1235" Arrived="No" timestamp="20190223123500" />
+<DepartTime time="1235" timestamp="20190223123500" sorttimestamp="20190223123500" />
+<Platform Number="1" Changed="No" Parent="1"/>
+<SecondaryServiceStatus></SecondaryServiceStatus>
+<ServiceStatus Status="On time" />
+<ExpectedDepartTime time="On time"/>
+<ExpectedArriveTime time="On time"/>
+<Delay Minutes="0"/>
+<ExpectedDepartStatus time="On time"/>
+<ExpectedArriveStatus time="On time"/>
+<DelayCause></DelayCause>
+<LastReport tiploc="" time="" type="" station1="" station2=""/>
+<CommentLine></CommentLine>
+<CommentLine2></CommentLine2>
+<ArrivalComment1></ArrivalComment1>
+<ArrivalComment2></ArrivalComment2>
+<PlatformComment1></PlatformComment1>
+<PlatformComment2></PlatformComment2>
+<DepartureComment1></DepartureComment1>
+<DepartureComment2></DepartureComment2>
+<AssociatedPageNotices></AssociatedPageNotices>
+<ChangeAt></ChangeAt>
+<Operator name="Translink" code="NI" brand="" />
+<Origin1 name="Bangor" tiploc="BR" crs="BRA"/>
+<Destination1 name="Lisburn" tiploc="LB" crs="LBA" ttarr="1303" etarr="1303"/>
+<Via />
+<Coaches1 />
+<Incident /><Dest1CallingPoints NumCallingPoints="8">
+<CallingPoint Name="Great Victoria St" tiploc="GV" crs="GVA" ttarr="1238" ttdep="1241" etarr="1238" etdep="1241" type="T"/>
+<CallingPoint Name="Adelaide" tiploc="AD" crs="ADA" ttarr="1244" ttdep="1245" etarr="1244" etdep="1245" type="T"/>
+<CallingPoint Name="Balmoral" tiploc="BL" crs="BLA" ttarr="1247" ttdep="1247" etarr="1247" etdep="1247" type="T"/>
+<CallingPoint Name="Finaghy" tiploc="FY" crs="FYA" ttarr="1250" ttdep="1250" etarr="1250" etdep="1250" type="T"/>
+<CallingPoint Name="Dunmurry" tiploc="DM" crs="DMA" ttarr="1252" ttdep="1252" etarr="1252" etdep="1252" type="T"/>
+<CallingPoint Name="Derriaghy" tiploc="DH" crs="DHA" ttarr="1254" ttdep="1254" etarr="1254" etdep="1254" type="T"/>
+<CallingPoint Name="Lambeg" tiploc="LG" crs="LGA" ttarr="1256" ttdep="1256" etarr="1256" etdep="1256" type="T"/>
+<CallingPoint Name="Hilden" tiploc="HD" crs="HDA" ttarr="1258" ttdep="1258" etarr="1258" etdep="1258" type="T"/>
+</Dest1CallingPoints>
+</Service>
+<Service Headcode="B609" Uid="090608" RetailID="" TigerID="10">
+<ServiceType Type="Through" />
+<ArriveTime time="1236" Arrived="No" timestamp="20190223123600" />
+<DepartTime time="1237" timestamp="20190223123700" sorttimestamp="20190223123700" />
+<Platform Number="2" Changed="No" Parent="2"/>
+<SecondaryServiceStatus></SecondaryServiceStatus>
+<ServiceStatus Status="On time" />
+<ExpectedDepartTime time="On time"/>
+<ExpectedArriveTime time="On time"/>
+<Delay Minutes="0"/>
+<ExpectedDepartStatus time="On time"/>
+<ExpectedArriveStatus time="On time"/>
+<DelayCause></DelayCause>
+<LastReport tiploc="" time="" type="" station1="" station2=""/>
+<CommentLine></CommentLine>
+<CommentLine2></CommentLine2>
+<ArrivalComment1></ArrivalComment1>
+<ArrivalComment2></ArrivalComment2>
+<PlatformComment1></PlatformComment1>
+<PlatformComment2></PlatformComment2>
+<DepartureComment1></DepartureComment1>
+<DepartureComment2></DepartureComment2>
+<AssociatedPageNotices></AssociatedPageNotices>
+<ChangeAt></ChangeAt>
+<Operator name="Translink" code="NI" brand="" />
+<Origin1 name="Lisburn" tiploc="LB" crs="LBA"/>
+<Destination1 name="Bangor" tiploc="BR" crs="BRA" ttarr="1315" etarr="1315"/>
+<Via />
+<Coaches1 />
+<Incident /><Dest1CallingPoints NumCallingPoints="11">
+<CallingPoint Name="Botanic" tiploc="BT" crs="BTA" ttarr="1238" ttdep="1239" etarr="1238" etdep="1239" type="T"/>
+<CallingPoint Name="Lanyon Place" tiploc="CL" crs="CLA" ttarr="1242" ttdep="1244" etarr="1242" etdep="1244" type="T"/>
+<CallingPoint Name="Titanic Quarter" tiploc="BE" crs="BEA" ttarr="1247" ttdep="1247" etarr="1247" etdep="1247" type="T"/>
+<CallingPoint Name="Sydenham" tiploc="SY" crs="SYA" ttarr="1250" ttdep="1250" etarr="1250" etdep="1250" type="T"/>
+<CallingPoint Name="Holywood" tiploc="HW" crs="HWA" ttarr="1254" ttdep="1255" etarr="1254" etdep="1255" type="T"/>
+<CallingPoint Name="Marino" tiploc="MO" crs="MOA" ttarr="1256" ttdep="1257" etarr="1256" etdep="1257" type="T"/>
+<CallingPoint Name="Cultra" tiploc="CT" crs="CTA" ttarr="1258" ttdep="1259" etarr="1258" etdep="1259" type="T"/>
+<CallingPoint Name="Seahill" tiploc="SL" crs="SLA" ttarr="1301" ttdep="1302" etarr="1301" etdep="1302" type="T"/>
+<CallingPoint Name="Helen&apos;s Bay" tiploc="HB" crs="HBA" ttarr="1305" ttdep="1305" etarr="1305" etdep="1305" type="T"/>
+<CallingPoint Name="Carnalea" tiploc="CA" crs="CAA" ttarr="1309" ttdep="1309" etarr="1309" etdep="1309" type="T"/>
+<CallingPoint Name="Bangor West" tiploc="BW" crs="BWA" ttarr="1310" ttdep="1311" etarr="1310" etdep="1311" type="T"/>
+</Dest1CallingPoints>
+</Service>
+<Service Headcode="B822" Uid="004411" RetailID="" TigerID="11">
+<ServiceType Type="Through" />
+<ArriveTime time="1246" Arrived="No" timestamp="20190223124600" />
+<DepartTime time="1246" timestamp="20190223124600" sorttimestamp="20190223124600" />
+<Platform Number="1" Changed="No" Parent="1"/>
+<SecondaryServiceStatus></SecondaryServiceStatus>
+<ServiceStatus Status="On time" />
+<ExpectedDepartTime time="On time"/>
+<ExpectedArriveTime time="On time"/>
+<Delay Minutes="0"/>
+<ExpectedDepartStatus time="On time"/>
+<ExpectedArriveStatus time="On time"/>
+<DelayCause></DelayCause>
+<LastReport tiploc="" time="1133" type="B" station1="Ballymoney" station2="Cullybackey"/>
+<CommentLine></CommentLine>
+<CommentLine2></CommentLine2>
+<ArrivalComment1></ArrivalComment1>
+<ArrivalComment2></ArrivalComment2>
+<PlatformComment1></PlatformComment1>
+<PlatformComment2></PlatformComment2>
+<DepartureComment1></DepartureComment1>
+<DepartureComment2></DepartureComment2>
+<AssociatedPageNotices></AssociatedPageNotices>
+<ChangeAt></ChangeAt>
+<Operator name="Translink" code="NI" brand="" />
+<Origin1 name="Londonderry" tiploc="LY" crs="LYA"/>
+<Destination1 name="Great Victoria St" tiploc="GV" crs="GVA" ttarr="1250" etarr="1250"/>
+<Via />
+<Coaches1 />
+<Incident /><Dest1CallingPoints NumCallingPoints="0">
+</Dest1CallingPoints>
+</Service>
+<Service Headcode="B713" Uid="007724" RetailID="" TigerID="12">
+<ServiceType Type="Through" />
+<ArriveTime time="1247" Arrived="No" timestamp="20190223124700" />
+<DepartTime time="1248" timestamp="20190223124800" sorttimestamp="20190223124800" />
+<Platform Number="2" Changed="No" Parent="2"/>
+<SecondaryServiceStatus></SecondaryServiceStatus>
+<ServiceStatus Status="On time" />
+<ExpectedDepartTime time="On time"/>
+<ExpectedArriveTime time="On time"/>
+<Delay Minutes="0"/>
+<ExpectedDepartStatus time="On time"/>
+<ExpectedArriveStatus time="On time"/>
+<DelayCause></DelayCause>
+<LastReport tiploc="" time="" type="" station1="" station2=""/>
+<CommentLine></CommentLine>
+<CommentLine2></CommentLine2>
+<ArrivalComment1></ArrivalComment1>
+<ArrivalComment2></ArrivalComment2>
+<PlatformComment1></PlatformComment1>
+<PlatformComment2></PlatformComment2>
+<DepartureComment1></DepartureComment1>
+<DepartureComment2></DepartureComment2>
+<AssociatedPageNotices></AssociatedPageNotices>
+<ChangeAt></ChangeAt>
+<Operator name="Translink" code="NI" brand="" />
+<Origin1 name="Great Victoria St" tiploc="GV" crs="GVA"/>
+<Destination1 name="Whitehead" tiploc="WD" crs="WDA" ttarr="1330" etarr="1330"/>
+<Via />
+<Coaches1 />
+<Incident /><Dest1CallingPoints NumCallingPoints="10">
+<CallingPoint Name="Botanic" tiploc="BT" crs="BTA" ttarr="1249" ttdep="1250" etarr="1249" etdep="1250" type="T"/>
+<CallingPoint Name="Lanyon Place" tiploc="CL" crs="CLA" ttarr="1253" ttdep="1255" etarr="1253" etdep="1255" type="T"/>
+<CallingPoint Name="Yorkgate" tiploc="YG" crs="YGA" ttarr="1258" ttdep="1259" etarr="1258" etdep="1259" type="T"/>
+<CallingPoint Name="Whiteabbey" tiploc="WY" crs="WYA" ttarr="1304" ttdep="1304" etarr="1304" etdep="1304" type="T"/>
+<CallingPoint Name="Jordanstown" tiploc="JN" crs="JNA" ttarr="1308" ttdep="1309" etarr="1308" etdep="1309" type="T"/>
+<CallingPoint Name="Greenisland" tiploc="GD" crs="GDA" ttarr="1311" ttdep="1312" etarr="1311" etdep="1312" type="T"/>
+<CallingPoint Name="Trooperslane" tiploc="TE" crs="TEA" ttarr="1314" ttdep="1315" etarr="1314" etdep="1315" type="T"/>
+<CallingPoint Name="Clipperstown" tiploc="CP" crs="CPA" ttarr="1317" ttdep="1318" etarr="1317" etdep="1318" type="T"/>
+<CallingPoint Name="Carrickfergus" tiploc="CS" crs="CSA" ttarr="1319" ttdep="1320" etarr="1319" etdep="1320" type="T"/>
+<CallingPoint Name="Downshire" tiploc="DP" crs="DPA" ttarr="1322" ttdep="1322" etarr="1322" etdep="1322" type="T"/>
+</Dest1CallingPoints>
+</Service>
+<Service Headcode="B823" Uid="007725" RetailID="" TigerID="13">
+<ServiceType Type="Through" />
+<ArriveTime time="1257" Arrived="No" timestamp="20190223125700" />
+<DepartTime time="1257" timestamp="20190223125700" sorttimestamp="20190223125700" />
+<Platform Number="1" Changed="No" Parent="1"/>
+<SecondaryServiceStatus></SecondaryServiceStatus>
+<ServiceStatus Status="On time" />
+<ExpectedDepartTime time="On time"/>
+<ExpectedArriveTime time="On time"/>
+<Delay Minutes="0"/>
+<ExpectedDepartStatus time="On time"/>
+<ExpectedArriveStatus time="On time"/>
+<DelayCause></DelayCause>
+<LastReport tiploc="" time="1128" type="A" station1="Whitehead" station2=""/>
+<CommentLine></CommentLine>
+<CommentLine2></CommentLine2>
+<ArrivalComment1></ArrivalComment1>
+<ArrivalComment2></ArrivalComment2>
+<PlatformComment1></PlatformComment1>
+<PlatformComment2></PlatformComment2>
+<DepartureComment1></DepartureComment1>
+<DepartureComment2></DepartureComment2>
+<AssociatedPageNotices></AssociatedPageNotices>
+<ChangeAt></ChangeAt>
+<Operator name="Translink" code="NI" brand="" />
+<Origin1 name="Whitehead" tiploc="WD" crs="WDA"/>
+<Destination1 name="Great Victoria St" tiploc="GV" crs="GVA" ttarr="1300" etarr="1300"/>
+<Via />
+<Coaches1 />
+<Incident /><Dest1CallingPoints NumCallingPoints="0">
+</Dest1CallingPoints>
+</Service>
+<Service Headcode="B207" Uid="090215" RetailID="" TigerID="14">
+<ServiceType Type="Through" />
+<ArriveTime time="1305" Arrived="No" timestamp="20190223130500" />
+<DepartTime time="1305" timestamp="20190223130500" sorttimestamp="20190223130500" />
+<Platform Number="1" Changed="No" Parent="1"/>
+<SecondaryServiceStatus></SecondaryServiceStatus>
+<ServiceStatus Status="On time" />
+<ExpectedDepartTime time="On time"/>
+<ExpectedArriveTime time="On time"/>
+<Delay Minutes="0"/>
+<ExpectedDepartStatus time="On time"/>
+<ExpectedArriveStatus time="On time"/>
+<DelayCause></DelayCause>
+<LastReport tiploc="" time="" type="" station1="" station2=""/>
+<CommentLine></CommentLine>
+<CommentLine2></CommentLine2>
+<ArrivalComment1></ArrivalComment1>
+<ArrivalComment2></ArrivalComment2>
+<PlatformComment1></PlatformComment1>
+<PlatformComment2></PlatformComment2>
+<DepartureComment1></DepartureComment1>
+<DepartureComment2></DepartureComment2>
+<AssociatedPageNotices></AssociatedPageNotices>
+<ChangeAt></ChangeAt>
+<Operator name="Translink" code="NI" brand="" />
+<Origin1 name="Bangor" tiploc="BR" crs="BRA"/>
+<Destination1 name="Lisburn" tiploc="LB" crs="LBA" ttarr="1333" etarr="1333"/>
+<Via />
+<Coaches1 />
+<Incident /><Dest1CallingPoints NumCallingPoints="8">
+<CallingPoint Name="Great Victoria St" tiploc="GV" crs="GVA" ttarr="1308" ttdep="1311" etarr="1308" etdep="1311" type="T"/>
+<CallingPoint Name="Adelaide" tiploc="AD" crs="ADA" ttarr="1314" ttdep="1315" etarr="1314" etdep="1315" type="T"/>
+<CallingPoint Name="Balmoral" tiploc="BL" crs="BLA" ttarr="1317" ttdep="1317" etarr="1317" etdep="1317" type="T"/>
+<CallingPoint Name="Finaghy" tiploc="FY" crs="FYA" ttarr="1320" ttdep="1320" etarr="1320" etdep="1320" type="T"/>
+<CallingPoint Name="Dunmurry" tiploc="DM" crs="DMA" ttarr="1322" ttdep="1322" etarr="1322" etdep="1322" type="T"/>
+<CallingPoint Name="Derriaghy" tiploc="DH" crs="DHA" ttarr="1324" ttdep="1324" etarr="1324" etdep="1324" type="T"/>
+<CallingPoint Name="Lambeg" tiploc="LG" crs="LGA" ttarr="1326" ttdep="1326" etarr="1326" etdep="1326" type="T"/>
+<CallingPoint Name="Hilden" tiploc="HD" crs="HDA" ttarr="1328" ttdep="1328" etarr="1328" etdep="1328" type="T"/>
+</Dest1CallingPoints>
+</Service>
+<Service Headcode="B610" Uid="090610" RetailID="" TigerID="15">
+<ServiceType Type="Through" />
+<ArriveTime time="1306" Arrived="No" timestamp="20190223130600" />
+<DepartTime time="1307" timestamp="20190223130700" sorttimestamp="20190223130700" />
+<Platform Number="2" Changed="No" Parent="2"/>
+<SecondaryServiceStatus></SecondaryServiceStatus>
+<ServiceStatus Status="On time" />
+<ExpectedDepartTime time="On time"/>
+<ExpectedArriveTime time="On time"/>
+<Delay Minutes="0"/>
+<ExpectedDepartStatus time="On time"/>
+<ExpectedArriveStatus time="On time"/>
+<DelayCause></DelayCause>
+<LastReport tiploc="" time="" type="" station1="" station2=""/>
+<CommentLine></CommentLine>
+<CommentLine2></CommentLine2>
+<ArrivalComment1></ArrivalComment1>
+<ArrivalComment2></ArrivalComment2>
+<PlatformComment1></PlatformComment1>
+<PlatformComment2></PlatformComment2>
+<DepartureComment1></DepartureComment1>
+<DepartureComment2></DepartureComment2>
+<AssociatedPageNotices></AssociatedPageNotices>
+<ChangeAt></ChangeAt>
+<Operator name="Translink" code="NI" brand="" />
+<Origin1 name="Lisburn" tiploc="LB" crs="LBA"/>
+<Destination1 name="Bangor" tiploc="BR" crs="BRA" ttarr="1345" etarr="1345"/>
+<Via />
+<Coaches1 />
+<Incident /><Dest1CallingPoints NumCallingPoints="11">
+<CallingPoint Name="Botanic" tiploc="BT" crs="BTA" ttarr="1308" ttdep="1309" etarr="1308" etdep="1309" type="T"/>
+<CallingPoint Name="Lanyon Place" tiploc="CL" crs="CLA" ttarr="1312" ttdep="1314" etarr="1312" etdep="1314" type="T"/>
+<CallingPoint Name="Titanic Quarter" tiploc="BE" crs="BEA" ttarr="1317" ttdep="1317" etarr="1317" etdep="1317" type="T"/>
+<CallingPoint Name="Sydenham" tiploc="SY" crs="SYA" ttarr="1320" ttdep="1320" etarr="1320" etdep="1320" type="T"/>
+<CallingPoint Name="Holywood" tiploc="HW" crs="HWA" ttarr="1324" ttdep="1325" etarr="1324" etdep="1325" type="T"/>
+<CallingPoint Name="Marino" tiploc="MO" crs="MOA" ttarr="1326" ttdep="1327" etarr="1326" etdep="1327" type="T"/>
+<CallingPoint Name="Cultra" tiploc="CT" crs="CTA" ttarr="1328" ttdep="1329" etarr="1328" etdep="1329" type="T"/>
+<CallingPoint Name="Seahill" tiploc="SL" crs="SLA" ttarr="1331" ttdep="1332" etarr="1331" etdep="1332" type="T"/>
+<CallingPoint Name="Helen&apos;s Bay" tiploc="HB" crs="HBA" ttarr="1335" ttdep="1335" etarr="1335" etdep="1335" type="T"/>
+<CallingPoint Name="Carnalea" tiploc="CA" crs="CAA" ttarr="1339" ttdep="1339" etarr="1339" etdep="1339" type="T"/>
+<CallingPoint Name="Bangor West" tiploc="BW" crs="BWA" ttarr="1340" ttdep="1341" etarr="1340" etdep="1341" type="T"/>
+</Dest1CallingPoints>
+</Service>
+<Service Headcode="B407" Uid="004412" RetailID="" TigerID="16">
+<ServiceType Type="Through" />
+<ArriveTime time="1312" Arrived="No" timestamp="20190223131200" />
+<DepartTime time="1313" timestamp="20190223131300" sorttimestamp="20190223131300" />
+<Platform Number="2" Changed="No" Parent="2"/>
+<SecondaryServiceStatus></SecondaryServiceStatus>
+<ServiceStatus Status="On time" />
+<ExpectedDepartTime time="On time"/>
+<ExpectedArriveTime time="On time"/>
+<Delay Minutes="0"/>
+<ExpectedDepartStatus time="On time"/>
+<ExpectedArriveStatus time="On time"/>
+<DelayCause></DelayCause>
+<LastReport tiploc="" time="" type="" station1="" station2=""/>
+<CommentLine></CommentLine>
+<CommentLine2></CommentLine2>
+<ArrivalComment1></ArrivalComment1>
+<ArrivalComment2></ArrivalComment2>
+<PlatformComment1></PlatformComment1>
+<PlatformComment2></PlatformComment2>
+<DepartureComment1></DepartureComment1>
+<DepartureComment2></DepartureComment2>
+<AssociatedPageNotices></AssociatedPageNotices>
+<ChangeAt></ChangeAt>
+<Operator name="Translink" code="NI" brand="" />
+<Origin1 name="Great Victoria St" tiploc="GV" crs="GVA"/>
+<Destination1 name="Londonderry" tiploc="LY" crs="LYA" ttarr="1522" etarr="1522"/>
+<Via />
+<Coaches1 />
+<Incident /><Dest1CallingPoints NumCallingPoints="11">
+<CallingPoint Name="Botanic" tiploc="BT" crs="BTA" ttarr="1314" ttdep="1315" etarr="1314" etdep="1315" type="T"/>
+<CallingPoint Name="Lanyon Place" tiploc="CL" crs="CLA" ttarr="1318" ttdep="1320" etarr="1318" etdep="1320" type="T"/>
+<CallingPoint Name="Yorkgate" tiploc="YG" crs="YGA" ttarr="1323" ttdep="1324" etarr="1323" etdep="1324" type="T"/>
+<CallingPoint Name="Mossley West" tiploc="MW" crs="MWA" ttarr="1332" ttdep="1333" etarr="1332" etdep="1333" type="T"/>
+<CallingPoint Name="Antrim" tiploc="AN" crs="ANA" ttarr="1345" ttdep="1347" etarr="1345" etdep="1347" type="T"/>
+<CallingPoint Name="Ballymena" tiploc="BA" crs="BAA" ttarr="1359" ttdep="1403" etarr="1359" etdep="1403" type="T"/>
+<CallingPoint Name="Cullybackey" tiploc="CY" crs="CYA" ttarr="1407" ttdep="1408" etarr="1407" etdep="1408" type="T"/>
+<CallingPoint Name="Ballymoney" tiploc="BY" crs="BYA" ttarr="1426" ttdep="1430" etarr="1426" etdep="1430" type="T"/>
+<CallingPoint Name="Coleraine" tiploc="CE" crs="CEA" ttarr="1440" ttdep="1443" etarr="1440" etdep="1443" type="T"/>
+<CallingPoint Name="Castlerock" tiploc="CK" crs="CKA" ttarr="1450" ttdep="1450" etarr="1450" etdep="1450" type="T"/>
+<CallingPoint Name="Bellarena" tiploc="BN" crs="BNA" ttarr="1458" ttdep="1500" etarr="1458" etdep="1500" type="T"/>
+</Dest1CallingPoints>
+</Service>
+<Service Headcode="B714" Uid="006728" RetailID="" TigerID="17">
+<ServiceType Type="Through" />
+<ArriveTime time="1317" Arrived="No" timestamp="20190223131700" />
+<DepartTime time="1318" timestamp="20190223131800" sorttimestamp="20190223131800" />
+<Platform Number="2" Changed="No" Parent="2"/>
+<SecondaryServiceStatus></SecondaryServiceStatus>
+<ServiceStatus Status="On time" />
+<ExpectedDepartTime time="On time"/>
+<ExpectedArriveTime time="On time"/>
+<Delay Minutes="0"/>
+<ExpectedDepartStatus time="On time"/>
+<ExpectedArriveStatus time="On time"/>
+<DelayCause></DelayCause>
+<LastReport tiploc="" time="" type="" station1="" station2=""/>
+<CommentLine></CommentLine>
+<CommentLine2></CommentLine2>
+<ArrivalComment1></ArrivalComment1>
+<ArrivalComment2></ArrivalComment2>
+<PlatformComment1></PlatformComment1>
+<PlatformComment2></PlatformComment2>
+<DepartureComment1></DepartureComment1>
+<DepartureComment2></DepartureComment2>
+<AssociatedPageNotices></AssociatedPageNotices>
+<ChangeAt></ChangeAt>
+<Operator name="Translink" code="NI" brand="" />
+<Origin1 name="Great Victoria St" tiploc="GV" crs="GVA"/>
+<Destination1 name="Larne Harbour" tiploc="LR" crs="LRA" ttarr="1420" etarr="1420"/>
+<Via />
+<Coaches1 />
+<Incident /><Dest1CallingPoints NumCallingPoints="15">
+<CallingPoint Name="Botanic" tiploc="BT" crs="BTA" ttarr="1319" ttdep="1320" etarr="1319" etdep="1320" type="T"/>
+<CallingPoint Name="Lanyon Place" tiploc="CL" crs="CLA" ttarr="1323" ttdep="1325" etarr="1323" etdep="1325" type="T"/>
+<CallingPoint Name="Yorkgate" tiploc="YG" crs="YGA" ttarr="1328" ttdep="1329" etarr="1328" etdep="1329" type="T"/>
+<CallingPoint Name="Whiteabbey" tiploc="WY" crs="WYA" ttarr="1334" ttdep="1334" etarr="1334" etdep="1334" type="T"/>
+<CallingPoint Name="Jordanstown" tiploc="JN" crs="JNA" ttarr="1338" ttdep="1339" etarr="1338" etdep="1339" type="T"/>
+<CallingPoint Name="Greenisland" tiploc="GD" crs="GDA" ttarr="1341" ttdep="1342" etarr="1341" etdep="1342" type="T"/>
+<CallingPoint Name="Trooperslane" tiploc="TE" crs="TEA" ttarr="1344" ttdep="1345" etarr="1344" etdep="1345" type="T"/>
+<CallingPoint Name="Clipperstown" tiploc="CP" crs="CPA" ttarr="1347" ttdep="1348" etarr="1347" etdep="1348" type="T"/>
+<CallingPoint Name="Carrickfergus" tiploc="CS" crs="CSA" ttarr="1349" ttdep="1350" etarr="1349" etdep="1350" type="T"/>
+<CallingPoint Name="Downshire" tiploc="DP" crs="DPA" ttarr="1352" ttdep="1352" etarr="1352" etdep="1352" type="T"/>
+<CallingPoint Name="Whitehead" tiploc="WD" crs="WDA" ttarr="1359" ttdep="1400" etarr="1359" etdep="1400" type="T"/>
+<CallingPoint Name="Ballycarry" tiploc="BC" crs="BCA" ttarr="1403" ttdep="1404" etarr="1403" etdep="1404" type="T"/>
+<CallingPoint Name="Magheramorne" tiploc="MM" crs="MMA" ttarr="1408" ttdep="1408" etarr="1408" etdep="1408" type="T"/>
+<CallingPoint Name="Glynn" tiploc="GN" crs="GNA" ttarr="1411" ttdep="1412" etarr="1411" etdep="1412" type="T"/>
+<CallingPoint Name="Larne Town" tiploc="LN" crs="LNA" ttarr="1415" ttdep="1416" etarr="1415" etdep="1416" type="T"/>
+</Dest1CallingPoints>
+</Service>
+<Service Headcode="B825" Uid="006727" RetailID="" TigerID="18">
+<ServiceType Type="Through" />
+<ArriveTime time="1327" Arrived="No" timestamp="20190223132700" />
+<DepartTime time="1327" timestamp="20190223132700" sorttimestamp="20190223132700" />
+<Platform Number="1" Changed="No" Parent="1"/>
+<SecondaryServiceStatus></SecondaryServiceStatus>
+<ServiceStatus Status="On time" />
+<ExpectedDepartTime time="On time"/>
+<ExpectedArriveTime time="On time"/>
+<Delay Minutes="0"/>
+<ExpectedDepartStatus time="On time"/>
+<ExpectedArriveStatus time="On time"/>
+<DelayCause></DelayCause>
+<LastReport tiploc="" time="" type="" station1="" station2=""/>
+<CommentLine></CommentLine>
+<CommentLine2></CommentLine2>
+<ArrivalComment1></ArrivalComment1>
+<ArrivalComment2></ArrivalComment2>
+<PlatformComment1></PlatformComment1>
+<PlatformComment2></PlatformComment2>
+<DepartureComment1></DepartureComment1>
+<DepartureComment2></DepartureComment2>
+<AssociatedPageNotices></AssociatedPageNotices>
+<ChangeAt></ChangeAt>
+<Operator name="Translink" code="NI" brand="" />
+<Origin1 name="Larne Harbour" tiploc="LR" crs="LRA"/>
+<Destination1 name="Great Victoria St" tiploc="GV" crs="GVA" ttarr="1330" etarr="1330"/>
+<Via />
+<Coaches1 />
+<Incident /><Dest1CallingPoints NumCallingPoints="0">
+</Dest1CallingPoints>
+</Service>
+<Service Headcode="B208" Uid="090217" RetailID="" TigerID="19">
+<ServiceType Type="Through" />
+<ArriveTime time="1335" Arrived="No" timestamp="20190223133500" />
+<DepartTime time="1335" timestamp="20190223133500" sorttimestamp="20190223133500" />
+<Platform Number="1" Changed="No" Parent="1"/>
+<SecondaryServiceStatus></SecondaryServiceStatus>
+<ServiceStatus Status="On time" />
+<ExpectedDepartTime time="On time"/>
+<ExpectedArriveTime time="On time"/>
+<Delay Minutes="0"/>
+<ExpectedDepartStatus time="On time"/>
+<ExpectedArriveStatus time="On time"/>
+<DelayCause></DelayCause>
+<LastReport tiploc="" time="" type="" station1="" station2=""/>
+<CommentLine></CommentLine>
+<CommentLine2></CommentLine2>
+<ArrivalComment1></ArrivalComment1>
+<ArrivalComment2></ArrivalComment2>
+<PlatformComment1></PlatformComment1>
+<PlatformComment2></PlatformComment2>
+<DepartureComment1></DepartureComment1>
+<DepartureComment2></DepartureComment2>
+<AssociatedPageNotices></AssociatedPageNotices>
+<ChangeAt></ChangeAt>
+<Operator name="Translink" code="NI" brand="" />
+<Origin1 name="Bangor" tiploc="BR" crs="BRA"/>
+<Destination1 name="Lisburn" tiploc="LB" crs="LBA" ttarr="1403" etarr="1403"/>
+<Via />
+<Coaches1 />
+<Incident /><Dest1CallingPoints NumCallingPoints="8">
+<CallingPoint Name="Great Victoria St" tiploc="GV" crs="GVA" ttarr="1338" ttdep="1341" etarr="1338" etdep="1341" type="T"/>
+<CallingPoint Name="Adelaide" tiploc="AD" crs="ADA" ttarr="1344" ttdep="1345" etarr="1344" etdep="1345" type="T"/>
+<CallingPoint Name="Balmoral" tiploc="BL" crs="BLA" ttarr="1347" ttdep="1347" etarr="1347" etdep="1347" type="T"/>
+<CallingPoint Name="Finaghy" tiploc="FY" crs="FYA" ttarr="1350" ttdep="1350" etarr="1350" etdep="1350" type="T"/>
+<CallingPoint Name="Dunmurry" tiploc="DM" crs="DMA" ttarr="1352" ttdep="1352" etarr="1352" etdep="1352" type="T"/>
+<CallingPoint Name="Derriaghy" tiploc="DH" crs="DHA" ttarr="1354" ttdep="1354" etarr="1354" etdep="1354" type="T"/>
+<CallingPoint Name="Lambeg" tiploc="LG" crs="LGA" ttarr="1356" ttdep="1356" etarr="1356" etdep="1356" type="T"/>
+<CallingPoint Name="Hilden" tiploc="HD" crs="HDA" ttarr="1358" ttdep="1358" etarr="1358" etdep="1358" type="T"/>
+</Dest1CallingPoints>
+</Service>
+<Service Headcode="B611" Uid="090612" RetailID="" TigerID="20">
+<ServiceType Type="Through" />
+<ArriveTime time="1336" Arrived="No" timestamp="20190223133600" />
+<DepartTime time="1337" timestamp="20190223133700" sorttimestamp="20190223133700" />
+<Platform Number="2" Changed="No" Parent="2"/>
+<SecondaryServiceStatus></SecondaryServiceStatus>
+<ServiceStatus Status="On time" />
+<ExpectedDepartTime time="On time"/>
+<ExpectedArriveTime time="On time"/>
+<Delay Minutes="0"/>
+<ExpectedDepartStatus time="On time"/>
+<ExpectedArriveStatus time="On time"/>
+<DelayCause></DelayCause>
+<LastReport tiploc="" time="" type="" station1="" station2=""/>
+<CommentLine></CommentLine>
+<CommentLine2></CommentLine2>
+<ArrivalComment1></ArrivalComment1>
+<ArrivalComment2></ArrivalComment2>
+<PlatformComment1></PlatformComment1>
+<PlatformComment2></PlatformComment2>
+<DepartureComment1></DepartureComment1>
+<DepartureComment2></DepartureComment2>
+<AssociatedPageNotices></AssociatedPageNotices>
+<ChangeAt></ChangeAt>
+<Operator name="Translink" code="NI" brand="" />
+<Origin1 name="Lisburn" tiploc="LB" crs="LBA"/>
+<Destination1 name="Bangor" tiploc="BR" crs="BRA" ttarr="1415" etarr="1415"/>
+<Via />
+<Coaches1 />
+<Incident /><Dest1CallingPoints NumCallingPoints="11">
+<CallingPoint Name="Botanic" tiploc="BT" crs="BTA" ttarr="1338" ttdep="1339" etarr="1338" etdep="1339" type="T"/>
+<CallingPoint Name="Lanyon Place" tiploc="CL" crs="CLA" ttarr="1342" ttdep="1344" etarr="1342" etdep="1344" type="T"/>
+<CallingPoint Name="Titanic Quarter" tiploc="BE" crs="BEA" ttarr="1347" ttdep="1347" etarr="1347" etdep="1347" type="T"/>
+<CallingPoint Name="Sydenham" tiploc="SY" crs="SYA" ttarr="1350" ttdep="1350" etarr="1350" etdep="1350" type="T"/>
+<CallingPoint Name="Holywood" tiploc="HW" crs="HWA" ttarr="1354" ttdep="1355" etarr="1354" etdep="1355" type="T"/>
+<CallingPoint Name="Marino" tiploc="MO" crs="MOA" ttarr="1356" ttdep="1357" etarr="1356" etdep="1357" type="T"/>
+<CallingPoint Name="Cultra" tiploc="CT" crs="CTA" ttarr="1358" ttdep="1359" etarr="1358" etdep="1359" type="T"/>
+<CallingPoint Name="Seahill" tiploc="SL" crs="SLA" ttarr="1401" ttdep="1402" etarr="1401" etdep="1402" type="T"/>
+<CallingPoint Name="Helen&apos;s Bay" tiploc="HB" crs="HBA" ttarr="1405" ttdep="1405" etarr="1405" etdep="1405" type="T"/>
+<CallingPoint Name="Carnalea" tiploc="CA" crs="CAA" ttarr="1409" ttdep="1409" etarr="1409" etdep="1409" type="T"/>
+<CallingPoint Name="Bangor West" tiploc="BW" crs="BWA" ttarr="1410" ttdep="1411" etarr="1410" etdep="1411" type="T"/>
+</Dest1CallingPoints>
+</Service>
+<Incident Summary=" " /></StationBoard>
