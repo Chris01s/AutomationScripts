@@ -1,9 +1,9 @@
 #!/bin/python
 
 import os
-from selenium import webdriver
-from selenium.webdriver.support.ui import Select
-from openpyxl import load_workbook
+import selenium
+import selenium.webdriver.support.ui as ui
+import openpyxl as excel
 
 
 def downloadRPAChallengeExcelFile():
@@ -45,30 +45,33 @@ def cleanUpExcelFile(workbook):
 
 
 
-downloadRPAChallengeExcelFile()
 
-workbook = load_workbook('challenge.xlsx')
-data = cleanUpExcelFile(workbook)
-max_rows = len(data['First Name'])
-
-##start selenium driver
-driver = webdriver.Chrome() 
-url = "http://rpachallenge.com/?lang=en"
-driver.get(url)
-
-startTheChallenge()
-
-for row in range(max_rows):
-   ##get all the elements containing text input fields
-   elements = getTextFieldElements()
+if __name__=="__main__":
    
-   ##go through each input field and enter the data
-   for element in elements:
-      fillInTextField(element,data[element.text][row])
-   submitForm()
-   
+   downloadRPAChallengeExcelFile()
 
-printResults()
+   workbook = excel.load_workbook('challenge.xlsx')
+   data = cleanUpExcelFile(workbook)
+   max_rows = len(data['First Name'])
 
-##close driver
-driver.close()
+   ##start selenium driver
+   driver = selenium.webdriver.Chrome() 
+   url = "http://rpachallenge.com/?lang=en"
+   driver.get(url)
+
+   startTheChallenge()
+
+   for row in range(max_rows):
+      ##get all the elements containing text input fields
+      elements = getTextFieldElements()
+
+      ##go through each input field and enter the data
+      for element in elements:
+         fillInTextField(element,data[element.text][row])
+      submitForm()
+
+
+   printResults()
+
+   ##close driver
+   driver.close()
