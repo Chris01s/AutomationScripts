@@ -44,31 +44,31 @@ def cleanUpExcelFile(workbook):
    return data
 
 
+if __name__ == '__main__':
+   downloadRPAChallengeExcelFile()
 
-downloadRPAChallengeExcelFile()
+   workbook = load_workbook('challenge.xlsx')
+   data = cleanUpExcelFile(workbook)
+   max_rows = len(data['First Name'])
 
-workbook = load_workbook('challenge.xlsx')
-data = cleanUpExcelFile(workbook)
-max_rows = len(data['First Name'])
+   ##start selenium driver
+   driver = webdriver.Chrome() 
+   url = "http://rpachallenge.com/?lang=en"
+   driver.get(url)
 
-##start selenium driver
-driver = webdriver.Chrome() 
-url = "http://rpachallenge.com/?lang=en"
-driver.get(url)
+   startTheChallenge()
 
-startTheChallenge()
+   for row in range(max_rows):
+      ##get all the elements containing text input fields
+      elements = getTextFieldElements()
+      
+      ##go through each input field and enter the data
+      for element in elements:
+         fillInTextField(element,data[element.text][row])
+      submitForm()
+      
 
-for row in range(max_rows):
-   ##get all the elements containing text input fields
-   elements = getTextFieldElements()
-   
-   ##go through each input field and enter the data
-   for element in elements:
-      fillInTextField(element,data[element.text][row])
-   submitForm()
-   
+   printResults()
 
-printResults()
-
-##close driver
-driver.close()
+   ##close driver
+   driver.close()
