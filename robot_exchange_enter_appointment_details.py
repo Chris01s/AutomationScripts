@@ -1,11 +1,6 @@
-import os
-import sys
 import time
 import pandas as pd
-from selenium import webdriver
-from selenium.webdriver.support.ui import Select
-from selenium.common.exceptions import ElementNotVisibleException
-from selenium.webdriver.common.keys import Keys
+
 
 
 def convert_timestamp_to_dateformat(appointment_date,driver):
