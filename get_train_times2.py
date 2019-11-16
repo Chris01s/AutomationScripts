@@ -20,6 +20,7 @@ class TranslinkTimetable:
 			"User-Agent":'''Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chromium/78.0.3904.97 Chrome/78.0.3904.97 Safari/537.36'''
 		}
 		
+		
 	def get_station_codes(self):
 		print("API call at: %s"%(time.asctime()))
 		print("Retrieving station codes...")
@@ -34,6 +35,7 @@ class TranslinkTimetable:
 		except Exception as ex:
 			print("Something else has gone wrong : %s"%(ex.__str__()))
 			sys.exit()
+	
 	
 	def get_departure_station_code(self):
 		try:
@@ -53,9 +55,8 @@ class TranslinkTimetable:
 		
 	def download_xml_translink_times(self):
 		print("Retrieving translink timetables for %s to %s"%(
-				self.departure, self.destination
-			)
-		)
+			self.departure, self.destination
+		))
 		try:
 			response = requests.get(
 				url = self.url + self.station_code + ".xml",
@@ -65,14 +66,14 @@ class TranslinkTimetable:
 		except Exception as ex:
 			print("Something else has gone wrong : %s"%(ex.__str__()))
 			print("Trying wget...")
+			##try wget request instead
 			os.system("wget -O translink.text %d".format(
-					self.url + self.station_code + ".xml"
-				)	
-			)
+				self.url + self.station_code + ".xml"
+			))
 			with open("translink.text", "r") as TRANSLINK_FILE:
 				self.translink_times_xml = TRANSLINK_FILE.read() 
 						
-
+						
 	def parse_translink_times_xml(self):
 		self.soup = BeautifulSoup(
 			markup = self.translink_times_xml,
