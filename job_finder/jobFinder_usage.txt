@@ -1,0 +1,16 @@
+usage: jobFinder.py [-h] --job_sites JOB_SITES [--location LOCATION]
+                    --keywords KEYWORDS [--apply APPLY] [--filename FILENAME]
+
+Finding jobs on nijobs.com or nijobfinder.com can be a pain, so this script
+will do it for you: just give what sites you want to search, keywords to
+include, and it will return links to the most prevelant job postings. More
+site to follow.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --job_sites JOB_SITES
+                        job sites to scrape from
+  --location LOCATION   Location of job search
+  --keywords KEYWORDS   keywords to search in job titles; separate with ','
+  --apply APPLY
+  --filename FILENAME   filepath of file to transfer
