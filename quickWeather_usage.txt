@@ -1,9 +1,0 @@
-usage: quickWeather.py [-h] --location LOCATION --appid_key APPID_KEY
-
-Produces a 5-day forecast for every 3-hrs
-
-optional arguments:
-  -h, --help            show this help message and exit
-  --location LOCATION   Enter a city name
-  --appid_key APPID_KEY
-                        api-key for your open weather api account
