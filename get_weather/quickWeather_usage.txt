@@ -1,6 +1,6 @@
 usage: quickWeather.py [-h] --location LOCATION --appid_key APPID_KEY
 
-Produces a 5-day forecast for every 3-hrs
+Produces a 5-day forecast for every 3-hrs. Requires open-weather api key(this is free at:(https://home.openweathermap.org/)
 
 optional arguments:
   -h, --help            show this help message and exit
