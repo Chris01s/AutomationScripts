@@ -15,15 +15,16 @@ Some small ideas and projects working with python. At the moment, these scripts 
 python 3 should already be installed out of the box for linux distros
 
 Command line:
-sudo apt install bs4 pandas selenium requests prettytable
+- sudo apt install bs4 pandas selenium requests prettytable
 
 browser drivers can be found at https://github.com/mozilla/geckodriver/releases for geckodriver, and https://chromedriver.chromium.org/ for chromedriver. By default, these scripts use geckodriver unless otherwise specified.
 
 once downloaded:
-sudo tar -xvf geckodriver-v0.{version}.0-linux{os bit type}.tar.gz
-for example: sudo tar -xvf geckodriver-v0.26.0-linux64.tar.gz
+- sudo tar -xvf geckodriver-v0.{version}.0-linux{os bit type}.tar.gz
+- for example: sudo tar -xvf geckodriver-v0.26.0-linux64.tar.gz
 
-mv geckodriver /usr/bin/
+then:
+- mv geckodriver /usr/bin/
 
 
 
