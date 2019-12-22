@@ -10,10 +10,7 @@ import json
 class ArgParser:
 	def __init__(self):
 		self.parser = argparse.ArgumentParser(
-			description = """
-				I fucking haaaate flicking through channels, and I hate scrolling 
-				down the tv guide. Fuck it, let's get the droids to do it.
-				"""
+			description = """Get the tv schedule for next few hours from radio times tv guide."""
 		)
 		
 	def add_channels(self):
