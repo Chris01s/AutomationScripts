@@ -7,7 +7,7 @@ import re
 
 
 class GetSelenium:
-	def __init__(self, url, add_proxies = False):
+	def __init__(self, url, proxy = '', add_proxies = False):
 		self.url = url
 		self.add_proxies = add_proxies
 		
@@ -15,8 +15,9 @@ class GetSelenium:
 		self.firefox_options = webdriver.FirefoxOptions()
 		self.firefox_options.add_argument("--headless")
 		if self.add_proxies:
+			self.proxy = proxy
 			self.firefox_options.add_argument(
-				"--proxy-server=socks5://127.0.0.1:9050"
+				"--proxy-server="+self.proxy
 			)
 		self.driver = webdriver.Firefox(
 			executable_path = "/usr/bin/geckodriver",
@@ -27,8 +28,9 @@ class GetSelenium:
 		self.chrome_options = webdriver.ChromeOptions()
 		self.chrome_options.add_argument("--headless")
 		if self.add_proxies:
+			self.proxy = proxy
 			self.chrome_options.add_argument(
-				"--proxy-server=socks5://127.0.0.1:9050"
+				"--proxy-server="+self.proxy
 			)
 		self.driver = webdriver.Chrome(
 			executable_path="/usr/bin/chromedriver",
