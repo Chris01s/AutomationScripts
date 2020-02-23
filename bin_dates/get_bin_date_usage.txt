@@ -1,0 +1,9 @@
+usage: get_bin_day.py [-h] --address ADDRESS [--city CITY] --postcode POSTCODE
+
+Search for bin collection day in the belfast council area
+
+optional arguments:
+  -h, --help           show this help message and exit
+  --address ADDRESS    job sites to scrape from
+  --city CITY          Location of job search
+  --postcode POSTCODE  keywords to search in job titles; separate with ','

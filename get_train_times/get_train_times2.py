@@ -1,11 +1,12 @@
 #!/bin/python
 
+from prettytable import PrettyTable
 from bs4 import BeautifulSoup
 import requests
 import os
 import sys
 import time
-from prettytable import PrettyTable
+
 
 
 class TranslinkTimetable:
