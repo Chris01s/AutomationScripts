@@ -77,7 +77,7 @@ class TranslinkTimetable:
 	def parse_translink_times_xml(self):
 		self.soup = BeautifulSoup(
 			markup = self.translink_times_xml,
-			features = "lxml"
+			features = 'html.parser'
 		)
 			
 							
@@ -273,7 +273,13 @@ class TranslinkTimetable:
 					print("Something else has gone wrong : %s"%(ex.__str__()))
 			
 				
-	
+	def get_special_notice(self):
+		self.specialnotice_element = self.soup.find('specialnotice')
+		if self.specialnotice_element:
+			self.specialnotice_text = self.specialnotice_element.text.strip()
+			for line in self.specialnotice_text.split('\n'):
+				print(line.strip())
+
 
 
 if __name__ == '__main__':
@@ -299,6 +305,10 @@ if __name__ == '__main__':
    
    ##get each service
    translink_timetable_obj.get_services()
-   translink_timetable_obj.print_results()
-   
+   if translink_timetable_obj.services:
+      translink_timetable_obj.print_results()
+   else:
+      print('\n\n\t\t\tSpecial Notice!!')
+      translink_timetable_obj.get_special_notice()
+
    
