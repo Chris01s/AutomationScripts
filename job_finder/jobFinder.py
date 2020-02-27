@@ -186,8 +186,10 @@ if __name__ == '__main__':
 		# )
 		# main_threads.append(main_thread)
 	for thread in threads:
-		thread.start()
-	
+		try:
+			thread.start()
+		except Exception as ex:
+			print(ex.__str__())
 	# for main_thread in main_threads:
 	# 	main_thread.start()
 	# 	main_thread.join()

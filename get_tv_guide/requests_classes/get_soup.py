@@ -9,7 +9,7 @@ class GetSoup(GetRequests):
 		if self.status_code == 200:
 			self.soup = BeautifulSoup(
 				markup = self.response.text,
-				features = "lxml"
+				features = "html.parser"
 			)
 		else:
 			print("Something went wrong", self.response.reason)

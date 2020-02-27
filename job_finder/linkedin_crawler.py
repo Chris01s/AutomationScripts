@@ -60,13 +60,13 @@ class LinkedInJobCrawl:
 		if self.result_html.status_code == 200:
 			self.soup = BeautifulSoup(
 				markup = self.result_html.text,
-				features = "lxml"
+				features = "html.parser"
 			)
 			if "No jobs were found to match your criteria" in self.soup.text:
 				self.no_result = True
 		else:
 			print("Something went wrong", self.result_html.status_code)
-
+			sys.exit()
 
 	def get_job_results(self):
 		try:

@@ -51,7 +51,7 @@ class Indeed_Crawler:
       if self.response.status_code == 200:
          self.soup = BeautifulSoup(
             markup = self.response.text,
-            features = "lxml"
+            features = "html.parser"
          )
       else:
          raise NoMoreResults

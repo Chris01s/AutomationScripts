@@ -60,7 +60,7 @@ class NIJobFinderCrawl:
 		if self.result_html.status_code == 200:
 			self.soup = BeautifulSoup(
 				markup = self.result_html.text,
-				features = "lxml"
+				features = "html.parser"
 			)
 			if "We couldn't find any jobs" in self.soup.text:
 				self.no_result = True

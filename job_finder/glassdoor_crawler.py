@@ -96,7 +96,7 @@ class GlassdoorCrawl:
       if self.search_response.status_code == 200:
          self.soup = BeautifulSoup(
 				markup = self.search_response.text,
-				features = "lxml"
+				features = "html.parser"
          )
       else:
          print("Something went wrong", self.search_response.status_code)
