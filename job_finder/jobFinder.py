@@ -15,10 +15,10 @@ from indeed_crawler import Indeed_Crawler
 
 def parse_commandline():
 	parser = argparse.ArgumentParser(
-		description = """Finding jobs on nijobs.com or nijobfinder.com can be a pain,
-							so this script will do it for you: just give what sites you want
+		description = """Finding jobs: just give what sites you want
 							to search, keywords to include, and it will return links
-							to the most prevelant job postings. More site to follow."""
+							to the most prevelant job postings. Currently, scraping linkedin, glassdoor, 
+							nijobs, nijobfinder. More site to follow."""
 	)
 	parser.add_argument(
 		"--job_sites",
