@@ -10,9 +10,12 @@ Some small ideas and projects working with python. At the moment, these scripts 
 - chromedriver
 - requests
 - prettytable
+- imagemagick
+- ghostscript
+- PyPDF2
 
 # For Linux 
-python 3 should already be installed out of the box for linux distros
+python 3 should already be installed out of the box for linux distros, as should imagemagick, and ghostscript.
 
 Command line:
 - pip3 install bs4 pandas selenium requests prettytable
