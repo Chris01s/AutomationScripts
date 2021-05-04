@@ -3,4 +3,4 @@ python get_train_times.py
 
 ## 19 Feb 2020: API NO LONGER WORKING!
 ###22 Mar 2020: API IS NOW WORKING!!
-##4 May 2021: API appears to be discontinued... :S
+##4 May 2021: API appears to be discontinued... :S (see new script get_train_times3.py )
